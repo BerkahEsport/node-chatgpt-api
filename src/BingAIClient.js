@@ -5,6 +5,7 @@ import Keyv from 'keyv';
 import { Agent, ProxyAgent } from 'undici';
 import { BingImageCreator } from '@timefox/bic-sydney';
 import dotenv from 'dotenv';
+import FormData from 'formdata-node';
 
 dotenv.config('.env');
 
